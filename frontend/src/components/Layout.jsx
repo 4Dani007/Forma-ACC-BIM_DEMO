@@ -1,10 +1,10 @@
-import { NavLink, Outlet, useNavigate } from "react-router-dom";
+import { Link, NavLink, Outlet, useNavigate } from "react-router-dom";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useState } from "react";
 import { api } from "../api/client";
 
 const LINKS = [
-  { to: "/", label: "Proyectos", end: true },
+  { to: "/proyectos", label: "Proyectos", end: true },
   { to: "/asignacion", label: "Asignación" },
   { to: "/permisos", label: "Permisos" },
   { to: "/comparador", label: "Comparador" },
@@ -25,7 +25,7 @@ export function Layout() {
     onSuccess: async () => {
       await queryClient.invalidateQueries();
       setNotice("Datos de ejemplo restaurados.");
-      navigate("/");
+      navigate("/proyectos");
     },
   });
 
@@ -44,7 +44,7 @@ export function Layout() {
         Saltar al contenido
       </a>
       <aside className="sidebar">
-        <div className="brand">
+        <Link className="brand" to="/">
           <span className="brand-mark" aria-hidden="true">
             S
           </span>
@@ -52,7 +52,7 @@ export function Layout() {
             <strong>Senda</strong>
             <small>Permisos de obra</small>
           </div>
-        </div>
+        </Link>
         <nav aria-label="Secciones">
           {LINKS.map((link) => (
             <NavLink key={link.to} to={link.to} end={link.end}>
