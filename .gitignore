@@ -1,0 +1,11 @@
+.env
+.venv/
+README (1).md
+__pycache__/
+.pytest_cache/
+*.pyc
+backend/data/
+frontend/node_modules/
+frontend/dist/
+.vercel
+*.log

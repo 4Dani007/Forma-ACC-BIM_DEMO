@@ -1,0 +1,31 @@
+nombre,correo,empresa,rol,proyectos
+Marta Peña,marta.pena@andina.example,Constructora Andina,Contratista,TORRE-1
+Elena Vargas,elena.vargas@concretos.example,Concretos del Valle,Contratista,TORRE-1; TORRE-2
+Ricardo Palma,ricardo.palma@nova.example,Estructura Nova,Contratista,TORRE-1; TORRE-2
+Lucía Ferrer,lucia.ferrer@nova.example,Estructura Nova,Visor,TORRE-2
+Andrés Cano,andres.cano@mepcentro.example,MEP del Centro,Contratista,TORRE-1
+Valeria Soto,valeria.soto@mepcentro.example,MEP del Centro,Visor,TORRE-1; TORRE-2
+Hugo Ibáñez,hugo.ibanez@alto.example,Seguridad Alto,Residente,TORRE-1
+Paula Nieto,paula.nieto@alto.example,Seguridad Alto,Visor,TORRE-2; PUENTE-1
+Sergio Quintero,sergio.quintero@andina.example,Constructora Andina,Residente,TORRE-2
+Carolina Mesa,carolina.mesa@andina.example,Constructora Andina,Coordinador,TORRE-2
+Felipe Araújo,felipe.araujo@loscerros.example,Inmobiliaria Los Cerros,Visor,TORRE-1; TORRE-2
+Irene Solano,irene.solano@rioclaro.example,Consorcio Río Claro,Contratista,PUENTE-1
+Tomás Herrera,tomas.herrera@rioclaro.example,Consorcio Río Claro,Residente,PUENTE-1
+Natalia Gil,natalia.gil@toposur.example,Toposurvey,Contratista,PUENTE-1
+Oscar Blandón,oscar.blandon@toposur.example,Toposurvey,Visor,PUENTE-1
+Beatriz Leal,beatriz.leal@andina.example,Constructora Andina,Contratista,TORRE-1
+Miguel Ángel Pardo,miguel.pardo@calidadnorte.example,Calidad Norte,Visor,TORRE-1; TORRE-2
+Sara Montoya,sara.montoya@calidadnorte.example,Calidad Norte,Residente,TORRE-2
+Esteban Ruiz,esteban.ruiz@nova.example,Estructura Nova,Contratista,TORRE-2
+Jimena Acosta,jimena.acosta@mepcentro.example,MEP del Centro,Contratista,TORRE-2
+Daniel Ospina,daniel.ospina@alto.example,Seguridad Alto,Visor,TORRE-1
+Renata Vidal,renata.vidal@loscerros.example,Inmobiliaria Los Cerros,Visor,PUENTE-1
+Gabriel Castaño,gabriel.castano@concretos.example,Concretos del Valle,Contratista,TORRE-1; PUENTE-1
+Helena Patiño,helena.patino@andina.example,Constructora Andina,Residente,TORRE-1
+Iván Restrepo,ivan.restrepo@rioclaro.example,Consorcio Río Claro,Coordinador,PUENTE-1
+Ximena López,ximena.lopez@toposur.example,Toposurvey,Visor,PUENTE-1
+Luis Gómez,luis.gomez@andina.example,Constructora Andina,Visor,TORRE-1
+Pedro Falla,falla@demo.example,Simulación Demo,Visor,TORRE-1
+Nadine Ruiz,nadine.ruiz@concretos.example,Concretos del Valle,Gerente,TORRE-1
+Olga Marín,olga.marin@concretos.example,Concretos del Valle,Contratista,Obra Fantasma
